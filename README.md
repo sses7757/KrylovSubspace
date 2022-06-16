@@ -21,25 +21,32 @@ The third part goes back to the basic Arnoldi algorithm and introduces its resta
 
 The fourth section focuses on linear system problems instead. Because of the previous foreshadowing, I choose to begin with the most complex and most closely related algorithm -- the generalized minimal residual method (GMRES) -- which aims for solving non-Hermitian linear systems. By considering more and more special matrices, I then introduce the minimal residual method (MinRes), the conjugate gradient method (CG), and their preprocessing algorithms.
 
+Overall, this not is not very mathematically inclined, and I try to avoid overwhelmed mathematical proofs. However, the ones that I have decided to include are all necessary in my opinion. For example, I have proved the convergence of the Lanczos algorithm, which is the basis for the Hermitian eigen problems in later chapters and even the next part, and the proofs omitted in these contents are often the conclusion of it, or they are quite alike. However, this does not mean that the proofs in this note is not mathematical rigorous. On the contrary, I think rigorous mathematics is indispensable, since otherwise, we will not be able to fully understand themselves and the way to the conclusions for future inspirations.
+
+While reading, you will often see text marked with different background which are important examples and supplements to the main text. I recommend you walk through them if you have time. Also, as you may notice, I tend to use random matrices in these examples to avoid any intentional or unintentional bias. These matrices, unless otherwise mentioned, are stored and operated with double-precision floating-point numbers. However, due to space limitations, only 6 significant digits are reserved, which may cause the results you found using my data to differentiate from the ones in this note by a small amount. Yet, I don’t think these round-off errors are large enough to affect the conclusions in the examples.
+
+At the end of this note, I also briefly analyzed the time and space complexity of the important algorithms in the text on typical CPU and GPU architectures. This part requires you to understand the basic principles of computers and the typical architecture of modern GPUs in advance. If you will not make drastic improvements to the algorithm I’ve introduced, I don’t think the complexity will be changed noticeably. In such case, you can ignore this part if you want, but I hope you can finish reading it -- after all, it’s also a summary and review of the entire note before.
+
+
 # Table of Content
 - Part O
-	- [Chapter 0 Preliminaries](en/ch0/main.md)
+	- [Chapter 0 Preliminaries](en/ch0/README.md)
 - Part I Introduction
-	- [Chapter 1 Beginning With Power Iteration](en/ch1/main.md)
-	- [Chapter 2 Krylov Subspace](en/ch2/main.md)
-	- [Chapter 3 Arnoldi Algorithm](en/ch3/main.md)
+	- [Chapter 1 Beginning With Power Iteration](en/ch1/README.md)
+	- [Chapter 2 Krylov Subspace](en/ch2/README.md)
+	- [Chapter 3 Arnoldi Algorithm](en/ch3/README.md)
 - Part II Hermitian Matrix Eigen-Problem
-	- [Chapter 4 Basic Lanczos Algorithm](en/ch4/main.md)
-	- [Chapter 5 Advanced Lanczos Algorithms](en/ch5/main.md)
-	- [Chapter 6 Restart Method of Lanczos Algorithm](en/ch6/main.md)
-	- [Chapter 7 Lanczos Algorithm With All Techniques](en/ch7/main.md)
+	- [Chapter 4 Basic Lanczos Algorithm](en/ch4/README.md)
+	- [Chapter 5 Advanced Lanczos Algorithms](en/ch5/README.md)
+	- [Chapter 6 Restart Method of Lanczos Algorithm](en/ch6/README.md)
+	- [Chapter 7 Lanczos Algorithm With All Techniques](en/ch7/README.md)
 - Part III Non-Hermitian Matrix Eigen-Problem
-	- [Chapter 8 Arnoldi Algorithm](en/ch8/main.md)
-	- [Chapter 9 Krylov-Schur Algorithm](en/ch9/main.md)
+	- [Chapter 8 Arnoldi Algorithm](en/ch8/README.md)
+	- [Chapter 9 Krylov-Schur Algorithm](en/ch9/README.md)
 - Part IV Linear System Problems
-	- [Chapter 10 Non-Hermitian Matrix's Linear System](en/ch10/main.md)
-	- [Chapter 11 Hermitian Matrix's Linear System](en/ch11/main.md)
-	- [Chapter 12 Convergence and Preconditioning](en/ch12/main.md)
+	- [Chapter 10 Non-Hermitian Matrix's Linear System](en/ch10/README.md)
+	- [Chapter 11 Hermitian Matrix's Linear System](en/ch11/README.md)
+	- [Chapter 12 Convergence and Preconditioning](en/ch12/README.md)
 - Part V Performance Analysis
-	- [Chapter 13 Hermitian Matrix's Algorithms](en/ch13/main.md)
-	- [Chapter 14 Non-Hermitian Matrix's Algorithms](en/ch14/main.md)
+	- [Chapter 13 Hermitian Matrix's Algorithms](en/ch13/README.md)
+	- [Chapter 14 Non-Hermitian Matrix's Algorithms](en/ch14/README.md)
