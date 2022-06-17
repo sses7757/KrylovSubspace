@@ -29,23 +29,23 @@
 
 # 目录
 - 第零部分
-	- [第0章 预备知识](zh/ch0/README.md)
+	- [第0章 预备知识](ch0/README_CN.md)
 - 第一部分 引入
-	- [第1章 从幂迭代开始](zh/ch1/README.md)
-	- [第2章 克雷洛夫子空间](zh/ch2/README.md)
-	- [第3章 阿诺尔迪算法](zh/ch3/README.md)
+	- [第1章 从幂迭代开始](ch1/README_CN.md)
+	- [第2章 克雷洛夫子空间](ch2/README_CN.md)
+	- [第3章 阿诺尔迪算法](ch3/README_CN.md)
 - 第二部分 厄米矩阵特征问题
-	- [第4章 基本兰乔斯算法](zh/ch4/README.md)
-	- [第5章 进阶兰乔斯算法数值方法](zh/ch5/README.md)
-	- [第6章 兰乔斯算法的重启方法](zh/ch6/README.md)
-	- [第7章 实现之前所有技巧的兰乔斯算法](zh/ch7/README.md)
+	- [第4章 基本兰乔斯算法](ch4/README_CN.md)
+	- [第5章 进阶兰乔斯算法数值方法](ch5/README_CN.md)
+	- [第6章 兰乔斯算法的重启方法](ch6/README_CN.md)
+	- [第7章 实现之前所有技巧的兰乔斯算法](ch7/README_CN.md)
 - 第三部分 非厄米矩阵特征问题
-	- [第8章 阿诺尔迪算法](zh/ch8/README.md)
-	- [第9章 克雷洛夫-舒尔算法](zh/ch9/README.md)
+	- [第8章 阿诺尔迪算法](ch8/README_CN.md)
+	- [第9章 克雷洛夫-舒尔算法](ch9/README_CN.md)
 - 第四部分 线性系统问题
-	- [第10章 非厄米矩阵的线性系统问题](zh/ch10/README.md)
-	- [第11章 厄米矩阵的线性系统问题](zh/ch11/README.md)
-	- [第12章 收敛性与预处理](zh/ch12/README.md)
+	- [第10章 非厄米矩阵的线性系统问题](ch10/README_CN.md)
+	- [第11章 厄米矩阵的线性系统问题](ch11/README_CN.md)
+	- [第12章 收敛性与预处理](ch12/README_CN.md)
 - 第五部分 性能分析
-	- [第13章 厄米矩阵算法](zh/ch13/README.md)
-	- [第14章 非厄米矩阵算法](zh/ch14/README.md)
+	- [第13章 厄米矩阵算法](ch13/README_CN.md)
+	- [第14章 非厄米矩阵算法](ch14/README_CN.md)

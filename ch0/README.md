@@ -21,3 +21,5 @@ This chapter is mainly about the preliminary knowledge required by the main text
   - [Section 6 Other Proofs (Page 23)](main.pdf#page=23)
     - [6.1 Rayleigh Quotient (Page 23)](main.pdf#page=23)
     - [6.2 Multiplicity of Real Symmetric Matrices (Page 24)](main.pdf#page=24)
+
+> [中文目录](README_CN.md)
